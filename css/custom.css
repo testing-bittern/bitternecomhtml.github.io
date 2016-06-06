@@ -101,13 +101,12 @@
 
    }
    #div, #div.a{
-     text-align: center;
-   
-     text-decoration: none;
+     text-align: center !important;
+     display: inline-block;
      background-color: black;
      color: gray !important;
-     height: 50px;
-     width: 1140px;
+     height: 15%;
+     width: 100% ;
    }
    li,a{
     color:white;
@@ -117,10 +116,10 @@
     color:black;
    }
  .contact{
-   height: 350px;
+   height:25%;
    background-color: #5E81A9;
    color:white;
-   width:1140px;
+   width:100%;
  }
 
 
