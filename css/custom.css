@@ -1,0 +1,167 @@
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    .modal-content{
+       border-radius: 0px !important;
+
+    }
+    .modal-dialog,.modal{
+      padding-left: 100px;
+       padding-top: 30px;
+    }
+    .modal-title{
+      text-align: center;
+      background-color:#5E81A9; 
+      color: white;
+    }
+
+    .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      min-height: 200px;
+      max-height: 380px;
+
+    }
+    .box{
+      width: 200px;
+      height: 200px;
+    }
+    .div4{
+      display: inline-block; 
+      padding: 30px 0px 0px 50px;
+    }
+    .span1{
+      font-size: 14px
+      color:gray;
+    }
+    .div5{
+      padding-top: 3px;
+    }
+    .div2{width: 100%;height: 40px;
+      
+       display: inline-block;
+       text-align: left;
+       padding:0px 0px 0px 10px;
+    box-shadow: 1px 1px 10px 1px #888888;}
+
+    .div3{width: 100%;height:500px;
+      
+       display: inline-block;
+       text-align: left;
+       padding:0px 0px 0px 10px;
+       box-shadow: 1px 1px 10px 5px #888888;}
+    .img-cart{
+      width: 400px;
+      height: 350px;
+      padding-left: 20px;
+      position: relative;
+    }
+    .img-cart:hover{
+    
+      box-shadow: 1px 1px 1px 1px #888888;
+    }
+   
+   #img2{height: 350px;width: 300px;
+
+    }
+    .div6{box-shadow: 1px 1px 10px 1px #888888;
+     padding-bottom: 10px !important;
+     padding-top: 10px !important;
+     }
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+    @media (max-width: 600px) {
+      .carousel-caption {
+        display: none; 
+      }
+    }
+    #back{background-color: black;
+        opacity: 0.5;}
+
+   .div{
+    
+     width:200px;
+     height: 150px;
+    
+   }
+   nav{
+    background-color: #5E81A9;
+   }
+   .img:hover{
+   border: 1px solid #0066cc;
+   }
+   p{
+    font-size: 12px;
+    color:gray;
+   }
+   button{
+   border-radius: 2px !important;
+   padding: 0px 8px !important;
+
+
+   }
+   #div, #div.a{
+     text-align: center;
+   
+     text-decoration: none;
+     background-color: black;
+     color: gray !important;
+     height: 50px;
+     width: 1140px;
+   }
+   li,a{
+    color:white;
+   }
+   li:hover,a:hover{
+    background-color: white;
+    color:black;
+   }
+ .contact{
+   height: 350px;
+   background-color: #5E81A9;
+   color:white;
+   width:1140px;
+ }
+
+
+.example1 {
+  height:200px;  
+ overflow: hidden;
+ position: relative;
+ display: inline-block;
+
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);  
+ transform:translateX(100%);
+ /* Apply animation to this element */  
+ -moz-animation: example1 60s linear infinite;
+ -webkit-animation: example1 60s linear infinite;
+ animation: example1 60s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes example1 {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes example1 {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes example1 {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%);     
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%); 
+ }
+}
+
+
+
+
+
